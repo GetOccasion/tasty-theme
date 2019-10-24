@@ -260,3 +260,24 @@ body.chopping .fc-day-grid-event.fc-event-future .fc-content{
 body.chopping .badge-secondary{
     background-color:#a49c94
 }
+@media screen and (max-width: 887px) {
+    
+    body.tasty #list article>div {
+        float: none;
+        margin-bottom: 20px !important;
+        width: auto;
+        margin-right: unset !important;
+        resize: both;
+        display: flex;
+        height: 180px;
+        min-height: unset !important;
+
+    }
+    body.tasty #list article h5 {
+        margin-top: 20px;
+    }
+    body.tasty #list article .btn-primary {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+ }
