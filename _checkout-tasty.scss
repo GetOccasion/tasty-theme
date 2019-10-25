@@ -60,7 +60,7 @@ body.tasty {
   h6,
   label,
   legend {
-    color: #505050;
+    color: #353c50;
   }
   .product-cover h1,
   .product-cover h3 {
@@ -106,7 +106,7 @@ body.tasty {
   }
   .bg-light.sidebar {
     background: #f9f9f9;
-    color: #818181;
+    color: #474D5F;
   }
   .bg-light.sidebar a {
     color: #f8911c;
@@ -119,5 +119,21 @@ body.tasty {
     background: #f8901a;
     border-radius: 4px;
     border: 0;
+  }
+  .bg-light.sidebar .product-description {
+    color: #474D5F !important;
+  }
+  .bg-light.sidebar .product-description blockquote {
+    background: #f9f9f9 !important;
+    color: #474D5F;
+    border: 2px solid #474D5F;
+    padding: 1.25rem;
+    border-radius: .25rem;
+  }
+  .bg-light.sidebar .product-description blockquote b {
+    font-weight: normal;
+  }
+  .bg-light.sidebar .product-description blockquote p:last-child {
+    margin-bottom: 0;
   }
 }
