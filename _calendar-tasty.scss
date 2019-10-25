@@ -101,7 +101,7 @@ body.tasty #list article h4{
     margin-bottom:15px;
     line-height: 1.3;
 }
-@media screen and (max-width:680px){
+@media screen and (max-width:768px){
     body.tasty #list article h4{
         font-size: 19px;
     }
@@ -234,6 +234,9 @@ body.tasty #calendar .fc-event-sold-out{
 body.tasty #calendar .fc-event-sold-out .fc-content .fc-title{
     color:#505050
 }
+body.tasty .btn.disabled, body.tasty .btn:disabled {
+    opactiy: 1;
+}
 body.chopping{
     font-family:Open Sans,sans-serif;
     color:#000
@@ -260,7 +263,14 @@ body.chopping .fc-day-grid-event.fc-event-future .fc-content{
 body.chopping .badge-secondary{
     background-color:#a49c94
 }
-@media screen and (max-width: 887px) {
+@media (min-width: 576px)
+    
+    body.tasty .container {
+        max-width: unset;
+    }
+
+}
+@media screen and (max-width: 520px) {
     
     body.tasty #list article>div {
         float: none;
@@ -269,7 +279,7 @@ body.chopping .badge-secondary{
         margin-right: unset !important;
         resize: both;
         display: flex;
-        height: 180px;
+        height: auto;
         min-height: unset !important;
 
     }
@@ -280,4 +290,4 @@ body.chopping .badge-secondary{
         margin-left: 20px;
         margin-bottom: 20px;
     }
- }
+}
