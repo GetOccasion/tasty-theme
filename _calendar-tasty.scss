@@ -111,145 +111,157 @@ body.tasty #list article h4 {
 @media (max-width: 1200px) {
   body.tasty #list article h4 {
     font-size: 21px;
-  }
 }
-@media screen and (max-width: 768px) {
-  body.tasty #list article h4 {
-    font-size: 19px;
-  }
+body.tasty #list article div.w-100 {
+    width: 100%!important;
+    display: block !important;
+    float: none !important;
+    height: auto;
 }
-body.tasty #list article h5 {
-  margin-bottom: 8px;
-  font-size: 14px;
-  margin-top: 25px;
-  color: #595f6f;
-  display: block !important;
-  justify-content: normal !important;
+@media (max-width: 1200px){
+    body.tasty #list article h4 {
+        font-size: 21px;
+    }
 }
-body.tasty #list article h5:nth-child(4) {
-  display: none !important;
+@media screen and (max-width:768px){
+    body.tasty #list article h4{
+        font-size: 19px;
+    }
 }
-body.tasty #list article p {
-  color: #818181;
-  display: none;
+body.tasty #list article h5{
+    margin-bottom: 8px;
+    font-size: 14px;
+    margin-top: 25px;
+    color: #595F6F;
+    display: block !important;
+    justify-content: normal !important;
 }
-body.tasty #list article p a {
-  color: #f8901a;
+body.tasty #list article h5:nth-child(4){
+    display: none;
 }
-body.tasty #list article .badge-pill {
-  border: 2px solid #f8911c;
-  background: transparent;
-  color: #f8911c;
-  font-size: 14px;
-  border-radius: 4px !important;
-  margin-top: -6px;
-  vertical-align: middle !important;
-  display: none;
+body.tasty #list article h5:nth-child(3) {
+    display: none !important;
 }
-body.tasty #list article .badge-pill:nth-child(n + 2) {
-  display: none;
+body.tasty #list article p{
+    color: #818181;
+    display: none;
 }
-body.tasty #list article .btn-primary {
-  background: #f8901c !important;
-  border: none;
-  margin-left: 0;
-  min-width: 130px;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 8px 16px 8px 16px;
-  color: #ffffff;
-  border-radius: 3px;
+body.tasty #list article p a{
+    color:#f8901a
 }
-body.tasty #list article .btn-secondary.disabled {
-  background: #818181;
-  color: #fff;
-  border: 0;
-  margin-left: 20px;
+body.tasty #list article .badge-pill{
+    border:2px solid #f8911c;
+    background:transparent;
+    color:#f8911c;
+    font-size:14px;
+    border-radius:4px!important;
+    margin-top:-6px;
+    vertical-align:middle!important;
+    display:none
 }
-body.tasty button.btn-outline-primary {
-  border: 2px solid #f8901c;
-  color: #f8901c;
+body.tasty #list article .badge-pill:nth-child(n+2){
+    display:none
 }
-@media screen and (max-width: 600px) {
-  body.tasty #list article > h5 {
-    flex-direction: column-reverse !important;
-  }
+body.tasty #list article .btn-primary{
+    background:#f8901c!important;
+    border:none;
+    margin-left: 0;
+    min-width: 130px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 16px 8px 16px;
+    color: #ffffff;
+    border-radius: 3px;
 }
-body.tasty #calendar li.align-items-baseline {
-  align-items: unset !important;
+body.tasty #list article .btn-secondary.disabled{
+    background:#818181;
+    color:#fff;
+    border:0;
+    margin-left:20px
 }
-body.tasty #calendar > ul.mb-1 {
-  margin-bottom: 10px !important;
+body.tasty button.btn-outline-primary{
+    border:2px solid #f8901c;
+    color:#f8901c
 }
-body.tasty #calendar select.form-control {
-  margin-top: 0 !important;
+@media screen and (max-width:600px){
+    body.tasty #list article>h5{
+        flex-direction:column-reverse!important
+    }
 }
-body.tasty #calendar .btn-secondary {
-  line-height: 1.3;
+body.tasty #calendar li.align-items-baseline{
+    align-items:unset!important
 }
-body.tasty #calendar .fc-day-grid-event .fc-content {
-  height: auto;
+body.tasty #calendar>ul.mb-1{
+    margin-bottom:10px!important
 }
-body.tasty #calendar .fc-content .fc-time,
-body.tasty #calendar .fc-content .fc-title {
-  font-size: 13px;
+body.tasty #calendar select.form-control{
+    margin-top:0!important
 }
-body.tasty #calendar .fc-content .fc-title {
-  font-weight: 700 !important;
-  margin-bottom: 8px;
-  color: #353c50;
-  font-size: 15px;
-  line-height: 1.3;
+body.tasty #calendar .btn-secondary{
+    line-height:1.3
 }
-body.tasty #calendar .fc-content .fc-time {
-  margin-bottom: 3px;
-  margin-top: 6px;
-  color: #818181;
+body.tasty #calendar .fc-day-grid-event .fc-content{
+    height:auto
 }
-body.tasty #calendar .fc-event,
-body.tasty #calendar .fc-event.fc-event-future {
-  background: #fff !important;
-  border: 1px solid #dfdfdf !important;
-  box-shadow: none;
-  border-radius: 6px;
+body.tasty #calendar .fc-content .fc-time,body.tasty #calendar .fc-content .fc-title{
+    font-size:13px
 }
-body.tasty #calendar .fc-day-grid-event .fc-content {
-  background: none !important;
-  color: #505050;
-  position: relative;
+body.tasty #calendar .fc-content .fc-title{
+    font-weight:700!important;
+    margin-bottom:8px;
+    color:#353c50;
+    font-size:15px;
+    line-height: 1.3;
 }
-body.tasty #calendar .fc-event:hover .fc-title {
-  text-decoration: underline;
-  color: #f8911c;
+body.tasty #calendar .fc-content .fc-time{
+    margin-bottom:3px;
+    margin-top:6px;
+    color:#818181
 }
-body.tasty #calendar .sold-out .fc-title {
-  overflow: visible;
-  height: auto;
+body.tasty #calendar .fc-event,body.tasty #calendar .fc-event.fc-event-future{
+    background:#fff!important;
+    border:1px solid #dfdfdf!important;
+    box-shadow:none;
+    border-radius:6px
 }
-body.tasty #calendar .sold-out .fc-sold-out {
-  font-weight: 700;
-  position: absolute;
-  display: inline-block;
-  top: 50%;
-  left: 50%;
-  margin-top: -10%;
-  margin-left: -25%;
-  vertical-align: middle;
-  background: #f8911c;
-  color: #fff;
-  padding: 8px 12px;
-  font-size: 16px;
-  -webkit-transform: rotate(-20deg);
-  transform: rotate(-20deg);
-  border-radius: 3px;
+body.tasty #calendar .fc-day-grid-event .fc-content{
+    background:none!important;
+    color:#505050;
+    position:relative
 }
-body.tasty #calendar .fc-event-sold-out {
-  background: #efefef !important;
-  border: 0;
+body.tasty #calendar .fc-event:hover .fc-title{
+    text-decoration:underline;
+    color:#f8911c
 }
-body.tasty #calendar .fc-event-sold-out .fc-content .fc-title {
-  color: #505050;
+body.tasty #calendar .sold-out .fc-title{
+    overflow:visible;
+    height:auto
+}
+body.tasty #calendar .sold-out .fc-sold-out{
+    font-weight:700;
+    position:absolute;
+    display:inline-block;
+    top:50%;
+    left:50%;
+    margin-top:-10%;
+    margin-left:-25%;
+    vertical-align:middle;
+    background:#f8911c;
+    color:#fff;
+    padding:8px 12px;
+    font-size:16px;
+    -webkit-transform:rotate(-20deg);
+    transform:rotate(-20deg);
+    border-radius:3px
+}
+body.tasty #calendar .fc-event-sold-out{
+    background:#efefef!important;
+    border:0
+}
+body.tasty #calendar .fc-event-sold-out .fc-content .fc-title{
+    color:#505050
+
 }
 body.tasty #calendar .fc-unthemed {
   background: #ffffff;
