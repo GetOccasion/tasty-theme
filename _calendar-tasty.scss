@@ -1,5 +1,4 @@
 body.tasty {
-  background: transparent;
 
   .btn-primary,
   .btn-success {
@@ -11,6 +10,9 @@ body.tasty {
     background: transparent;
     border-width: 2px;
     font-weight: 600;
+  }
+  #occsn-app {
+    overflow: hidden;
   }
   .container {
     padding: 0;
@@ -297,5 +299,24 @@ body.tasty {
         margin-bottom: 20px;
       }
     }
+  }
+}
+@media screen and (max-width: 520px) {
+  body.tasty #list article > div {
+    float: none;
+    margin-bottom: 20px !important;
+    width: auto;
+    margin-right: unset !important;
+    resize: both;
+    display: block;
+    height: auto;
+    min-height: unset !important;
+  }
+  body.tasty #list article h5 {
+    margin-top: 20px;
+  }
+  body.tasty #list article .btn-primary {
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
 }
