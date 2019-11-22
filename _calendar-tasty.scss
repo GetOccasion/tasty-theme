@@ -277,42 +277,7 @@ body.tasty .btn.disabled,
 body.tasty .btn:disabled {
   opactiy: 1;
 }
-body.chopping {
-  font-family: Open Sans, sans-serif;
-  color: #000;
-}
-body.chopping h1,
-body.chopping h2,
-body.chopping h3,
-body.chopping h4,
-body.chopping h5 {
-  color: #000;
-  border-color: #000;
-}
-body.chopping .btn-primary,
-body.chopping .btn-success {
-  background-color: #8c8279;
-  border-color: #7f756d;
-}
-body.chopping .btn-secondary {
-  background-color: #8c8279;
-  border-color: #988f87;
-}
-body.chopping .btn-outline-primary {
-  color: #8c8279;
-  border-color: #8c8279;
-}
-body.chopping .fc-day-grid-event.fc-event-future .fc-content {
-  background-color: #8c8279;
-}
-body.chopping .badge-secondary {
-  background-color: #a49c94;
-}
-@media (min-width: 576px) {
-  body.tasty .container {
-    max-width: unset;
-  }
-}
+
 @media screen and (max-width: 520px) {
   body.tasty #list article > div {
     float: none;
