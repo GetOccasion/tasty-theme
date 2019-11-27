@@ -120,9 +120,12 @@ body.tasty {
     border-radius: 4px;
     border: 0;
   }
-  .bg-light.sidebar .product-description, .bg-light.sidebar .product-description span {
+  .bg-light.sidebar .product-description, .bg-light.sidebar .product-description span, .bg-light.sidebar .product-description p {
     color: #474D5F !important;
     font-size: 1rem !important;
+  }
+  .bg-light.sidebar .product-description h3, .bg-light.sidebar .product-description h3 span {
+    font-size: 1.75rem !important;
   }
   .bg-light.sidebar .product-description blockquote {
     background: #f9f9f9 !important;
@@ -133,7 +136,7 @@ body.tasty {
     font-size: 1rem !important;
   }
   .bg-light.sidebar .product-description blockquote b {
-    font-weight: normal;
+    font-weight: 700;
     color: #474D5F;
   }
   .bg-light.sidebar .product-description blockquote p:last-child {
